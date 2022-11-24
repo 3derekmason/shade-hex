@@ -56,3 +56,5 @@ const shadeHex = (color, int) => {
   // return result array as a css ready string
   return "#" + result.join("");
 };
+
+export default shadeHex;
