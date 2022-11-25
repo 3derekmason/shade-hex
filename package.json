@@ -2,7 +2,7 @@
   "name": "shade-hex",
   "version": "1.0.0",
   "description": "Brighten or darken a hexidecimal color value",
-  "main": "index.js",
+  "main": "shade-hex.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
