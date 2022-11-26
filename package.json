@@ -1,6 +1,6 @@
 {
   "name": "shade-hex",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Brighten or darken a hexidecimal color value",
   "main": "shade-hex.js",
   "scripts": {
