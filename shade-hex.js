@@ -28,6 +28,9 @@ const getIndex = (n) => {
 // takes in a hexidecimal value and a value to increase or decreace
 
 const shadeHex = (color, int) => {
+  if (typeof color === "number") {
+    color = color.toString();
+  }
   if (typeof color !== "string") {
     return new Error("Color must be a string");
   }
