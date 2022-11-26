@@ -22,12 +22,16 @@ const shadeArray = [
 // find value in shade array and return index to use below
 
 const getIndex = (n) => {
-  return shadeArray.indexOf(n.toString());
+  return shadeArray.indexOf(n.toString().toLowerCase());
 };
 
 // takes in a hexidecimal value and a value to increase or decreace
 
 const shadeHex = (color, int) => {
+  if (typeof color !== "string") {
+    return new Error("Color must be a string");
+  }
+
   let hexArray = color.split("");
 
   // Check length of color input
